@@ -1,0 +1,22 @@
+[Desktop Entry]
+Name=Archimedes
+Type=Application
+Icon=/home/alectramell/Desktop/archimedes/arc.svg
+Exec=bash /home/alectramell/Desktop/archimedes/menu.sh
+Terminal=false
+
+Actions=Facebook;Apps;Library
+
+Name[en_US]=Archimedes
+
+[Desktop Action Facebook]
+Name=Apollon Data Metrics (AGY)
+Exec=sensible-browser --new-window="https://facebook.com/apollondma"
+
+[Desktop Action Apps]
+Name=More Apps..
+Exec=sensible-browser --new-window="https://www.gumroad.com/apollondma"
+
+[Desktop Action Library]
+Name=Library
+Exec=sensible-browser --new-window="https://facebook.com/apollondma"
