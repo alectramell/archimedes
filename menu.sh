@@ -47,6 +47,10 @@ fi
 
 clear
 
+cd /home/$USERNAME/Desktop && git clone https://github.com/alectramell/archimedes.git
+
+clear
+
 SEARCH=$(zenity --entry --title="Archimedes v1.0" --text="Search ARC-ID: " --width="348" --height="126" --ok-label="Search" --cancel-label="Quit")
 search="$SEARCH"
 
